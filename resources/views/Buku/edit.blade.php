@@ -19,20 +19,20 @@
     <div class="container mt-3">
 
     <div class="form-group">
-      <label for="exampleInputEmail1" class="font-weight-bold">No Surat</label>
-      <input type="text" name="no_plat" class="form-control" value="{{$buku->no_plat}}" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan No Surat">
+      <label for="exampleInputEmail1" class="font-weight-bold">No Plat</label>
+      <input type="text" name="no_plat" class="form-control" value="{{$buku->no_plat}}" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan No Plat">
     </div>
     <div class="form-group">
-      <label for="exampleInputPassword1" class="font-weight-bold">Penerbit</label>
-      <input type="text" name="merk" class="form-control" value="{{$buku->merk}}" id="exampleInputPassword1" placeholder="Masukkan Tanggal Surat">
+      <label for="exampleInputPassword1" class="font-weight-bold">Merk</label>
+      <input type="text" name="merk" class="form-control" value="{{$buku->merk}}" id="exampleInputPassword1" placeholder="Masukkan Merk Kendaraan">
     </div>
     <div class="form-group">
-        <label for="exampleInputPassword1" class="font-weight-bold">Penulis</label>
-        <input type="text" name="tipe" class="form-control" value="{{$buku->tipe}}" id="exampleInputPassword1" placeholder="Masukkan Judul Surat">
+        <label for="exampleInputPassword1" class="font-weight-bold">Tipe</label>
+        <input type="text" name="tipe" class="form-control" value="{{$buku->tipe}}" id="exampleInputPassword1" placeholder="Masukkan Tipe Kendaraan">
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1" class="font-weight-bold">Gambar</label>
-        <input type="file" name="gambar" class="form-control" value="{{$buku->gambar}}" id="exampleInputPassword1" placeholder="Masukkan Penulis buku">
+        <input type="file" name="gambar" class="form-control" value="{{$buku->gambar}}" id="exampleInputPassword1" placeholder="Masukkan Gambar">
       </div>
       <div class="form-group">
       <img src="{{$buku -> gambar}}" height="80px" width="100px" alt="" srcset="">
